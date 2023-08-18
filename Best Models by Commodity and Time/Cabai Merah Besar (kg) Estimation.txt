@@ -1,0 +1,20 @@
+Spatial Error Parameter = 0.206
+
+Call:
+lm(formula = XT_til.best ~ WY_til.best)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-33518  -4479   -998   3608  43522 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)    154.2      211.5   0.729    0.466    
+WY_til.best  33848.4      248.2 136.367   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 7368 on 4713 degrees of freedom
+Multiple R-squared:  0.7978,	Adjusted R-squared:  0.7978 
+F-statistic: 1.86e+04 on 1 and 4713 DF,  p-value: < 2.2e-16
+
